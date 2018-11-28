@@ -1,0 +1,41 @@
+families:
+  - parents: [Joseph, Josephine]
+    children: [Herta, Margareth, Maria, Martin, Bernhard, Ernst, Johann, Andreas]
+  - parents: [Alois, Agnes]
+    children: [Annelies, Marlene, Werner, August]
+  - parents: [Bernhard, Marlene]
+    children: [Tobias, Lorenz, Stefanie]
+  - parents: [Kurt, Stefanie]
+    children: [Henri]
+  - parents: [Elmar, Herta]
+    children: [Matthias, Julia, Isabel]
+  - parents: [Matthias, Valentina]
+    children: [Jeremias]
+  - parents: [Lukas, Julia]
+    children: [Tobias2]
+  - parents: [Ferdinand, Margareth]
+    children: [Michael, Simone]
+
+people:
+  Bernhard:
+    fullname: Bernhard Burger
+  Marlene:
+    fullname: Marlene Kofler
+  Tobias:
+    fullname: Tobias Burger
+    links: [https://twitter.com/toburger]
+    class: [creator]
+  Lorenz:
+    fullname: Lorenz Burger
+  Stefanie:
+    fullname: Stefanie Burger
+  Kurt:
+    fullname: Kurt Ganthaler
+  Henri:
+    fullname: Henri Ganthaler
+  Tobias2:
+    name: Tobias
+
+styles:
+  creator:
+    color: blue
