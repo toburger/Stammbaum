@@ -1,20 +1,42 @@
 families:
-  - parents: [Joseph, Josephine]
+  - house: Kreuzwirt zu Völs
+    parents: [Barbara Fulterer, Christian Masoner]
+    children: [Peter Masoner, Josef Masoner, Hanni Masoner, Luise Masoner, Barbara Masoner, Marie Masoner, Josef Masoner, Anna Masoner]
+    families:
+    - parents: [Anna Penz, Peter Masoner]
+  - house: Burgstall
+    parents: [Josef, Josefine]
     children: [Herta, Margareth, Maria, Martin, Bernhard, Ernst, Johann, Andreas]
-  - parents: [Alois, Agnes]
-    children: [Annelies, Marlene, Werner, August]
-  - parents: [Bernhard, Marlene]
-    children: [Tobias, Lorenz, Stefanie]
-  - parents: [Kurt, Stefanie]
-    children: [Henri]
-  - parents: [Elmar, Herta]
-    children: [Matthias, Julia, Isabel]
-  - parents: [Matthias, Valentina]
-    children: [Jeremias]
-  - parents: [Lukas, Julia]
-    children: [Tobias2]
-  - parents: [Ferdinand, Margareth]
-    children: [Michael, Simone]
+    families:
+    - parents: [Bernhard, Marlene]
+      children: [Tobias, Lorenz, Stefanie]
+    - parents: [Kurt, Stefanie]
+      children: [Henri]
+    - parents: [Elmar, Herta]
+      children: [Matthias, Julia, Isabel]
+    - parents: [Matthias, Valentina]
+      children: [Jeremias]
+    - parents: [Lukas, Julia]
+      children: [Tobias2]
+    - parents: [Ferdinand, Margareth]
+      children: [Michael, Simone]
+    - parents: [Maria, T]
+      parents2: [Thomas]
+      children: [Katharina, Marijan]
+    - parents: [Ernst, Erika]
+      children: [Gabriel, Barbara]
+    - parents: [Johann, Valeria]
+    - parents: [Isabel, Hannes]
+  - house: Andrian
+    parents: [Anna Masoner, Anton Pircher]
+    children: [Josefine, Luise]
+    families:
+    - parents: [Luise]
+      children: [Christian]
+    - parents: [Christian, Gerlinde]
+      children: [Barbara2, Maria2, Alexander]
+  - house: Hern/Bodensee
+    parents: [Kathi, Albert]
 
 people:
   Bernhard:
@@ -35,6 +57,34 @@ people:
     fullname: Henri Ganthaler
   Tobias2:
     name: Tobias
+  Josefine:
+    name: Josefine Pircher
+  Josef:
+    name: Josef Burger
+  Herta:
+    name: Herta Burger
+  Elmar:
+    name: Elmar Ausserer
+  Margareth:
+    name: Margareth Burger
+  Ferdinand:
+    name: Ferdinand Guggenberger
+  Maria:
+    name: Maria Burger
+  Thomas:
+    name: Thomas Hansen
+  Martin:
+    name: Martin Burger
+  Erika:
+    name: Erika Sanin
+  Ernst:
+    name: Ernst Burger
+  Valeria:
+    name: Valeria Gufler
+  Johann:
+    name: Johann Burger
+  Andreas:
+    name: Andreas Burger
 
 styles:
   creator:
